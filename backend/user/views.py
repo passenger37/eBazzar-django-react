@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http.response import HttpResponse
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate,login,logout
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import AllowAny
 
 
 def signup(request):

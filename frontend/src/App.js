@@ -30,7 +30,7 @@ function App() {
       <nav className="navbar">
         <div className="brand">eBazzar</div>
         <div className="nav-actions">
-          {path === '/login' && (
+          {/* {path === '/login' && (
             <a
               href="/signup"
               className="nav-link nav-link-primary"
@@ -41,8 +41,8 @@ function App() {
             >
               Signup
             </a>
-          )}
-          {path === '/signup' && (
+          )} */}
+          {/* {path === '/signup' && (
             <a
               href="/login"
               className="nav-link"
@@ -53,7 +53,7 @@ function App() {
             >
               Login
             </a>
-          )}
+          )} */}
           {path === '/' && (
             <a
               href="/signup"
